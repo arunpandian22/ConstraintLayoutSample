@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ConstraintSample</string>
+    <string name="constraint_sample">ConstraintSample</string>
+    <string name="chains">Chains</string>
+    <string name="guidline">GuidLines</string>
+    <string name="barriers">Barriers</string>
+    <string name="sample">Sample Layout</string>
+    <string name="grups">Groups</string>
+    <string name="username">/@sachin_rt</string>
+    <string name="profession">Profession</string>
+    <string name="passion">la passion</string>
+    <string name="professionAns">développement de logiciels</string>
+    <string name="passionAns">cyclisme</string>
+    <string name="title_activity_group">GroupActivity</string>
+    <string name="name">Arun Pandian M</string>
+    <string name="designation">SoftWare Developer chez Nfn</string>
+    <string name="register">Register</string>
+</resources>

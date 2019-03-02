@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#2663CC</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black">#000000</color>
+    <color name="white">#fff</color>
+    <color name="colorEvent">#707070</color>
+    <color name="colorGroups">#858585</color>
+    <color name="colorsearchview">#F7F7F7</color>
+    <color name="colorUpcoming">#515151</color>
+    <color name="colorDetailBorder">#ECECEC</color>
+    <!--<color name=""/>-->
+</resources>
+

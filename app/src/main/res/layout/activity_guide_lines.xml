@@ -88,6 +88,7 @@
         android:text="Tweets"
         android:textColor="@color/black"
         android:textSize="18sp"
+        android:layout_marginStart="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/viewBottom"
         app:layout_constraintEnd_toStartOf="@+id/tvFollowingLabel"
         app:layout_constraintHorizontal_bias="0.5"
@@ -118,7 +119,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="16dp"
         android:fontFamily="@font/roboto_bold"
         android:text="Followers"
         android:textColor="@color/black"
@@ -128,7 +129,8 @@
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toEndOf="@+id/tvFollowingLabel"
         app:layout_constraintTop_toTopOf="@+id/guidelineBottom"
-        app:layout_constraintVertical_bias="0.502" />
+        app:layout_constraintVertical_bias="0.502"
+        app:layout_goneMarginEnd="16dp" />
 
     <!---->
     <TextView

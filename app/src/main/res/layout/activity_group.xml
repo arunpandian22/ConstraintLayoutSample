@@ -102,8 +102,9 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="100dp"
-        android:layout_height="30dp"
+        android:layout_width="99dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="8dp"
         android:background="@drawable/bg_button"
         android:fontFamily="@font/roboto_regular"
         android:text="button 4"
@@ -111,38 +112,42 @@
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2"
-        app:layout_constraintVertical_bias="0.523" />
+        app:layout_constraintVertical_bias="0.458" />
 
 
     <Button
         android:id="@+id/button5"
         android:layout_width="100dp"
         android:layout_height="30dp"
+        android:layout_marginStart="8dp"
         android:background="@drawable/bg_button"
         android:fontFamily="@font/roboto_regular"
         android:text="button 5"
-
         android:textColor="@color/white"
         android:textSize="10sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/button4"
         app:layout_constraintDimensionRatio="H,1:1"
         app:layout_constraintEnd_toEndOf="@+id/button2"
-        app:layout_constraintStart_toStartOf="@+id/button2" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/button4" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="100dp"
         android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/bg_button"
         android:fontFamily="@font/roboto_regular"
         android:text="button 6"
         android:textColor="@color/white"
         android:textSize="10sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/button5"
-        app:layout_constraintEnd_toEndOf="@+id/button3"
-        app:layout_constraintStart_toStartOf="@+id/button3" />
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintStart_toEndOf="@+id/button5" />
 
 
     <Button

@@ -2,15 +2,14 @@
 A sample repo for constraint layout
 
 ## output
+[a link](https://gifyu.com/image/3Thm)
+
+you can read about the Constraint layout in this  [link](https://medium.com/p/2fce50f0d902/edit)
 
 
-![ezgif.com-optimizedd3b7e9791e121bf.gif](https://s2.gifyu.com/images/ezgif.com-optimizedd3b7e9791e121bf.gif)
 
     
-   ## Dependency
-```
-   implementation 'com.android.support.constraint:constraint-layout:2.0.0-alpha3'
-```
+
 
 
 
